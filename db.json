@@ -1,1 +1,59 @@
-# teste.mockend.json
+{
+  "postagens": [
+    {
+      "id": 1,
+      "title": "Postagem 1",
+      "description": "this is description 1"
+    },
+    {
+      "id": 2,
+      "title": "Postagem 2",
+      "description": "this is description 2"
+    },
+    {
+      "id": 3,
+      "title": "Postagem 3",
+      "description": "this is description 3"
+    }
+  ],
+  "Albums": [
+    {
+      "userId": 1,
+      "id": "Segundo álbum da banda Nirvana",
+      "title": "Nevermind"
+    },
+    {
+      "userId": 2,
+      "id": "Oitavo álbum da banda de rock The Beatles",
+      "title": "Sgt. Pepper's Lonely Hearts Club Band"
+    },
+    {
+      "userId": 3,
+      "id": "Sexto álbum da cantora Lady Gaga",
+      "title": "Chromatica"
+    }
+  ],
+  "To-dos": [
+    {
+    "userId": 1,
+    "id": 1,
+    "title": "Termos de uso",
+    "completed": true
+    },
+    {
+    "userId": 1,
+    "id": 2,
+    "title": "Localização",
+    "completed": false
+    },
+    {
+    "userId": 1,
+    "id": 3,
+    "title": "Começar",
+    "completed": true
+    },
+  ],
+  "profile": {
+    "name": "Gobbi"
+  }
+}
